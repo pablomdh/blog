@@ -1,7 +1,7 @@
 # blog
 Blog with Next.js and Tailwind
 
-##Link
+## Link
 [Vercel Deployment](https://vercel.com/pablomdh/blog-nextjs)
 
 ## How to use
