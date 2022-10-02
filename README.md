@@ -7,6 +7,7 @@ Blog with Next.js and Tailwind
 ## How to use
 ```bash
 git clone https://github.com/pablomdh/blog.git
+cd blog/blog
 npm install
 npm run dev
 ```
