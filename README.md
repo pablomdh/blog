@@ -8,7 +8,7 @@ git clone https://github.com/pablomdh/blog.git
 npm install
 npm run dev
 ```
-See the terminal the blog is now available locally!
+The blog is now available locally!
 
 
 ## Possible Improvements:
