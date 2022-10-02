@@ -16,12 +16,12 @@ export default function About() {
         <p>To create this blog the following sites were consulted:</p>
         <div>
           <ul>
-            <li className='links'><a href='https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website' target='_blank' rel='noopener'>Next.Js Learning Path</a></li>
-            <li className='links'><a href='https://tailwindcss.com/docs/installation' target='_blank' rel='noopener'>Get started with Tailwind CSS</a></li>
-            <li className='links'><a href='https://www.youtube.com/watch?v=vu9gPcPs3mY&ab_channel=HarryWolff' target='_blank' rel='noopener'>How To Build A Blog With Next.js And Tailwind. (Part 1 and 2) by Harry Wolff</a></li>
-            <li className='links'><a href='https://swr.vercel.app/docs/getting-started' target='_blank' rel='noopener'>SWR Getting Started</a></li>
-            <li className='links'><a href='https://nextjs.org/docs/basic-features/data-fetching/client-side#client-side-data-fetching-with-swr' target='_blank' rel='noopener'>Client-side data fetching with SWR</a></li>
-            <li className='links'><a href='https://github.com/vercel/swr/issues/110' target='_blank' rel='noopener'>Debounce? Throttle requests?</a></li>
+            <li className='links'><a href='https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website' target='_blank' rel='noreferrer'>Next.Js Learning Path</a></li>
+            <li className='links'><a href='https://tailwindcss.com/docs/installation' target='_blank' rel='noreferrer'>Get started with Tailwind CSS</a></li>
+            <li className='links'><a href='https://www.youtube.com/watch?v=vu9gPcPs3mY&ab_channel=HarryWolff' target='_blank' rel='noreferrer'>How To Build A Blog With Next.js And Tailwind. (Part 1 and 2) by Harry Wolff</a></li>
+            <li className='links'><a href='https://swr.vercel.app/docs/getting-started' target='_blank' rel='noreferrer'>SWR Getting Started</a></li>
+            <li className='links'><a href='https://nextjs.org/docs/basic-features/data-fetching/client-side#client-side-data-fetching-with-swr' target='_blank' rel='noreferrer'>Client-side data fetching with SWR</a></li>
+            <li className='links'><a href='https://github.com/vercel/swr/issues/110' target='_blank' rel='noreferrer'>Debounce? Throttle requests?</a></li>
           </ul>
         </div>
 
