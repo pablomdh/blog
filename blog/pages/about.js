@@ -22,6 +22,8 @@ export default function About() {
             <li className='links'><a href='https://swr.vercel.app/docs/getting-started' target='_blank' rel='noreferrer'>SWR Getting Started</a></li>
             <li className='links'><a href='https://nextjs.org/docs/basic-features/data-fetching/client-side#client-side-data-fetching-with-swr' target='_blank' rel='noreferrer'>Client-side data fetching with SWR</a></li>
             <li className='links'><a href='https://github.com/vercel/swr/issues/110' target='_blank' rel='noreferrer'>Debounce? Throttle requests?</a></li>
+            <li className='links'><a href='https://stackoverflow.com/questions/68339243/how-can-i-use-top-level-await-in-typescript-next-js' target='_blank' rel='noreferrer'>Use top level "await" in typescript next.js</a></li>
+            
           </ul>
         </div>
 
