@@ -3,11 +3,10 @@ import React, { useState, useEffect } from 'react';
 import useDebounce from '../lib/useDebounce';
 import {getServerSideProps} from '../lib/getServerSideProps'
 
-const  posts = getServerSideProps();
-console.log('posts', posts)
+const posts = await getServerSideProps();
 
 export default function Posts() {
-  const [blogPosts] = useState(posts);
+  const [blogPosts] = useState(posts.props);
   const [filteredBlogPosts, setFilteredBlogPosts] = useState([]);
   const [search, setSearch] = useState('');
   const debouncedSearch = useDebounce(search, 1000);
