@@ -15,9 +15,10 @@ npm run dev
 ```
 The blog is now available locally!
 
+## Branch GetServerSideProps:
+- Server Side Rendering. DONE
 
 ## Possible Improvements:
-- Server Side Rendering.
 - Implement SWR.
 - Persist information in search input.
 - Slow connection notification.
