@@ -23,7 +23,4 @@
   .links {
     @apply list-disc text-blue-600 hover:text-blue-400 ml-6
   }
-  /* .myStyle{
-    @apply text-blue-600 hover:text-blue-300
-  } */
 }
