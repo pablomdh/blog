@@ -4,6 +4,9 @@ Blog with Next.js and Tailwind
 ## Link
 [Blog](https://blog-nextjs-hazel.vercel.app/)
 
+[Blog Updated](https://blog-nextjs-jp0a80wcs-pablomdh.vercel.app/swrposts)
+[(awaiting to promote to production)](https://vercel.com/pablomdh/blog-nextjs/HN9LCPCzXTfViT91johTpxVbJ1Rc)
+
 [Vercel Deployment](https://vercel.com/pablomdh/blog-nextjs)
 
 ## How to use
@@ -20,6 +23,5 @@ The blog is now available locally!
 - Implement SWR. DONE
 
 ## Possible Improvements:
-- Implement SWR in search.
 - Persist information in search input.
 - Slow connection notification.
