@@ -38,7 +38,6 @@ export default function Posts() {
         </div>
         <div>
           <h1 className='text-3xl font-bold text-center my-3'>Posts</h1>
-          <ul>
             {filteredBlogPosts.length ?
               filteredBlogPosts.map(({ userId, id, title, body }) => (
                 <div key={id} className='card'>
@@ -50,8 +49,7 @@ export default function Posts() {
               ))
               : <div><p className='text-center m-4 font-bold text-gray-500'>There is no author with this id!</p></div>
             }
-          </ul>
-        </div>
+          </div>
       </section>
     </div>
   )
