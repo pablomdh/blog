@@ -17,8 +17,9 @@ The blog is now available locally!
 
 ## Branch GetServerSideProps:
 - Server Side Rendering. DONE
+- Implement SWR. DONE
 
 ## Possible Improvements:
-- Implement SWR.
+- Implement SWR in search.
 - Persist information in search input.
 - Slow connection notification.
