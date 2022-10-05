@@ -21,9 +21,6 @@
     @apply my-4 border-black hover:shadow-2xl transition duration-700 ease-out
   }
   .links {
-    @apply list-disc text-blue-600 hover:text-blue-400
+    @apply list-disc text-blue-600 hover:text-blue-400 ml-6
   }
-  /* .myStyle{
-    @apply text-blue-600 hover:text-blue-300
-  } */
 }

@@ -1,33 +1,21 @@
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
-import axios from 'axios'
 import useDebounce from '../lib/useDebounce';
+import {getServerSideProps} from '../lib/getServerSideProps'
 
-export const fetcher = async () => {
-  const { data } = await axios.get('https://jsonplaceholder.typicode.com/posts')
-  return data
-}
+const posts = await getServerSideProps();
 
 export default function Posts() {
-  const [blogPosts, setBlogPosts] = useState([]);
+  const [blogPosts] = useState(posts.props);
   const [filteredBlogPosts, setFilteredBlogPosts] = useState([]);
   const [search, setSearch] = useState('');
   const debouncedSearch = useDebounce(search, 1000);
-
-  useEffect(() => {
-    getPosts()
-  }, [])
 
   useEffect(() => {
     if (debouncedSearch.length)
       setFilteredBlogPosts(blogPosts.filter(post => post.userId == debouncedSearch))
     else setFilteredBlogPosts(blogPosts)
   }, [debouncedSearch, blogPosts])
-
-  const getPosts = async () => {
-    const posts = await fetcher()
-    setBlogPosts(posts)
-  }
 
   const handleOnChange = (event) => {
     const { value } = event.currentTarget
@@ -50,7 +38,6 @@ export default function Posts() {
         </div>
         <div>
           <h1 className='text-3xl font-bold text-center my-3'>Posts</h1>
-          <ul>
             {filteredBlogPosts.length ?
               filteredBlogPosts.map(({ userId, id, title, body }) => (
                 <div key={id} className='card'>
@@ -62,8 +49,7 @@ export default function Posts() {
               ))
               : <div><p className='text-center m-4 font-bold text-gray-500'>There is no author with this id!</p></div>
             }
-          </ul>
-        </div>
+          </div>
       </section>
     </div>
   )
