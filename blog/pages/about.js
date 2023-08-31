@@ -25,7 +25,7 @@ export default function About() {
             <li className='links'><a href='https://stackoverflow.com/questions/68339243/how-can-i-use-top-level-await-in-typescript-next-js' target='_blank' rel='noreferrer'>Use top level await in typescript next.js</a></li>
             <li className='links'><a href='https://rapidapi.com/guides/use-swr-hooks' target='_blank' rel='noreferrer'>How to fetch data from APIs using SWR Hooks in React?</a></li>
           </ul>
-          <p>Test</p>
+          <p>Test 2</p>
         </div>
 
       </main>
