@@ -28,10 +28,7 @@ export default function About() {
           <p>Test 2</p>
           <p>IR Squash</p>
           <p>non-consecutive</p>
-<<<<<<< HEAD
           <p>commit</p>
-=======
->>>>>>> f902ec9 (Test non-consecutive)
         </div>
 
       </main>
