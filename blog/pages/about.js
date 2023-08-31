@@ -26,6 +26,9 @@ export default function About() {
             <li className='links'><a href='https://rapidapi.com/guides/use-swr-hooks' target='_blank' rel='noreferrer'>How to fetch data from APIs using SWR Hooks in React?</a></li>
           </ul>
           <p>Test 2</p>
+          <p>IR Squash</p>
+          <p>non-consecutive</p>
+          <p>commit</p>
         </div>
 
       </main>
